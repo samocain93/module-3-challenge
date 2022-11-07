@@ -35,7 +35,7 @@ function getPrompts() {
 
     // Confirm promps need to be stored outside of the if function, otherwise will keep running for length of the loop
     // These evaluate the user's options to get us the password criteria we need
-    
+
     var checkLowercase = confirm("Do you want to use lowercase letters in your password?")
     var checkUpperCase = confirm("Do you want to use uppercase letters in your password?")
     var checkSymbols = confirm("Do you want to use special characters in your password?")
@@ -64,7 +64,7 @@ function getPrompts() {
 
       if (checkNumbers && tempPassword.length < passwordLength) {
       var randomIndex = Math.floor(Math.random() * 10)
-      tempPassword = tempPassword + symbols[randomIndex]
+      tempPassword = tempPassword + numbers[randomIndex]
      }
     }
      return tempPassword;
