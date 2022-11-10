@@ -7,6 +7,8 @@ to us by a user.
 
 ## Usage
 
-![image of password generator application in use on page](./Develop/assets/images/project_screenshot.png)
+![image of password generator application in use on page](./assets/images/project_screenshot.png)
 
-Please visit page in deployed GitHub Pages link provided to try out the password generator: 
+Please visit page in deployed GitHub Pages link provided to try out the password generator: https://samocain93.github.io/module-3-challenge/
+
+- Thanks!
