@@ -33,7 +33,7 @@ function getPrompts() {
       return tempPassword;
     }
 
-    // Confirm promps need to be stored outside of the if function, otherwise will keep running for length of the loop
+    // Confirm prompts need to be stored outside of the if function, otherwise will keep running for length of the loop
     // These evaluate the user's options to get us the password criteria we need
 
     var checkLowercase = confirm("Do you want to use lowercase letters in your password?")
@@ -42,7 +42,7 @@ function getPrompts() {
     var checkNumbers = confirm("Do you want to use numbers in your password?")
     
     // For loop to iterate through chosen length of password and join into our tempPassword the chosen characters
-    for (i = 0; i < passwordLength; i++) {
+    for (let i = 0; i < passwordLength; i++) {
 
     /* What is this saying? As long as our prompt for lowercase AND our tempPassword is less than the total num of characters
     chosen for the passwordLength, then pull a random index from our lowercase letter array and add it to our temp password */
@@ -68,7 +68,6 @@ function getPrompts() {
      }
     }
      return tempPassword;
-
 }
 
 
